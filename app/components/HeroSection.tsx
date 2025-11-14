@@ -25,18 +25,24 @@ export default function HeroSection() {
 					<div className="font-mono">
 						<p className="text-green-500">$ whoami</p>
 						<h1 className="text-4xl md:text-5xl font-bold mt-2 mb-4">Vaibhav Gupta</h1>
-						<p className="text-gray-400 mb-2">Backend/DevOps Engineer</p>
+						<p className="text-gray-400 mb-2">I Design Develop Deploy Ideas . . </p>
 						<p className="text-green-500">$ skills</p>
 						<div className="flex flex-wrap gap-2 mt-2">
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Python</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Go</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Cassandra</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">SQL</span>
+							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Redis</span>
+							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Elastic Stack</span>
+							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">ArgoCD</span>
+							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Datadog</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">AWS</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Docker</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Kubernetes</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Ansible</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Terraform</span>
+
+							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Databases</span>
+							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Backend</span>
+							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Distributed Systems</span>
+							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">GitOps</span>
 						</div>
 					</div>
 				</motion.div>

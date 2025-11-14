@@ -13,6 +13,18 @@ export default function ExperienceSection() {
 				<div className="grid grid-cols-1 gap-8">
 					{[
 						{
+							title: 'Porter',
+							description: 'Software Development Engineer Backend | Sept 2025 - Present | Bangalore, India',
+							details: [
+								"Authored comprehensive technical documentation for the UAE Pre-Auth + Saved Card checkout flow, including detailed UML and sequence diagrams to improve onboarding and architectural reviews.",
+								"Implemented the Saved Card feature with 'Checkout' Payment Gateway for the UAE market with Pre-Authorization (Pre-Auth) support across both pre-trip and post-trip payment flows.",
+								"Developed a CronJob to automatically mark stale transactions as PROCESSED when users terminate the mobile app between CreatePayment and ProcessPayment, significantly improving business analytics accuracy.",
+								"Designed and developed a secure microservice for managing saved payment methods, ensuring PCI-DSS compliance and integrating with multiple payment gateways to enhance user experience and transaction security."
+							],
+
+							tech: ['Kotlin', 'Ktor', 'Domain-Driven-Design', 'Kubernetes', 'ArgoCD', 'Datadog'],
+						},
+						{
 							title: 'Metroguild Inc.',
 							description: 'Software Engineer | June 2023 - May 2025 | Pune, India',
 							details: [
@@ -22,7 +34,7 @@ export default function ExperienceSection() {
 								'I set up Jenkins for all Metroleads microservices across development, staging, and production environments with role-based access control, persisting data, configurations, and settings using EBS. Additionally, I migrated from a template-based Dockerfile build strategy to a builder–runner build strategy, significantly increasing release frequency and drastically reducing build times.',
 								'I implemented CloudWatch Alarms in AWS to monitor custom disk usage percentage and CPU usage percentage metrics for EC2 instances, integrating with Microsoft Teams webhooks to deliver real-time alerts, significantly reducing response time for critical issues.'
 							],
-							tech: ['Python', 'Django','FastAPI','Cassandra','Redis', 'RabbitMQ', 'AWS','Kubernetes', 'Docker', 'Ansible', 'Terraform'],
+							tech: ['Python', 'Django', 'FastAPI', 'Cassandra', 'Redis', 'RabbitMQ', 'AWS', 'Kubernetes', 'Docker', 'Ansible', 'Terraform'],
 						},
 						{
 							title: 'Zoomcar',
