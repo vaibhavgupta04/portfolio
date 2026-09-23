@@ -13,6 +13,17 @@ export default function ExperienceSection() {
 				<div className="grid grid-cols-1 gap-8">
 					{[
 						{
+							title: 'DP World',
+							description: 'Group SDE 1 Backend | Full Time | Jan 2026 - Present | Hyderabad, India',
+							details: [
+								'Designed HLDs and LLDs based on PRDs and developed the Planning Engine sub-module for the GC-OPS (General Cargo Operations) platform, successfully deploying it across major maritime hubs including Dar es Salaam and Jebel Ali Port.',
+								'Engineered a real-time Java Spring Boot application that ingests marine traffic telemetry and terminal configurations to dynamically optimize Berth, Vessel, Resource, and Yard allocations.',
+								'Architected an asynchronous messaging backbone by deploying Kafka on Azure VMs and authoring a shared Java library to standardize event publishing and consumption across microservices, eliminating dual-write inconsistencies via the Transactional Outbox Pattern following an architectural POC benchmarking Kafka against Azure Event Hubs.',
+								'Designed and integrated a robust rule engine utilizing Drools and Google OR-Tools (CP-SAT) to automate plan generation while strictly adhering to complex operational constraints.'
+							],
+							tech: ['Java', 'Spring Boot', 'Kafka', 'Azure', 'Drools', 'OR-Tools'],
+						},
+						{
 							title: 'Porter',
 							description: 'Software Development Engineer Backend | Sept 2025 - Present | Bangalore, India',
 							details: [

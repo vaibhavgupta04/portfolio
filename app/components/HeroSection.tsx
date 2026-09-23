@@ -29,12 +29,13 @@ export default function HeroSection() {
 						<p className="text-green-500">$ skills</p>
 						<div className="flex flex-wrap gap-2 mt-2">
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Python</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Go</span>
+							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Java</span>
+							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Spring Boot</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Cassandra</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Redis</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Elastic Stack</span>
+							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Kafka</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">ArgoCD</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Datadog</span>
+							
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">AWS</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Docker</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Kubernetes</span>
